@@ -50,7 +50,7 @@ class Cell:
             return
         color = "red"
         if undo:
-            color = "gray"
+            color = "blue"
         
         p1 = Point(self._x1 + ((self._x2 - self._x1) // 2),
                    self._y1 + ((self._y2 - self._y1) // 2))
